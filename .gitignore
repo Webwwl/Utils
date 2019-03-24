@@ -2,6 +2,16 @@
 node_modules
 /dist
 
+# no need 
+public
+babel.config.js
+postcss.config.js
+src/assets
+src/components
+src/*.vue
+src/main.js
+
+
 # local env files
 .env.local
 .env.*.local

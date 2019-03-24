@@ -1,22 +1,28 @@
 {
-  "name": "wwl-utils",
-  "version": "1.0.0",
-  "private": true,
+  "name": "webwwl-utils",
+  "version": "1.0.1",
+  "description": "常用工具方法",
   "main": "./src/utils/index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "files": [
-    "src/utils/",
+    "./src/utils/*",
     "*.json"
   ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "vue": "^2.6.6"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Webwwl/Utils.git"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-service": "^3.5.0",
-    "vue-template-compiler": "^2.5.21"
-  }
+  "keywords": [
+    "utils"
+  ],
+  "author": "webwwl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Webwwl/Utils/issues"
+  },
+  "homepage": "https://github.com/Webwwl/Utils#readme"
 }
